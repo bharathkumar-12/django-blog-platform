@@ -14,7 +14,7 @@ python_version = "3.8"
 ```
 ---
 ## You can visit the link to directly check the Live blog Hosted on Heroku :
-https://techteamup-blog.herokuapp.com/
+https://git.heroku.com/djangoblogger00.git
 ---
 ## Usage
 ```python
