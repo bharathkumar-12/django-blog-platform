@@ -1,51 +1,25 @@
-# Blog-Application
+# Blog Application
 
-Blog Application is a Python Blog App for Creating and Viewing posts.This is blog created by Django framework with simple blog functionality and some example content.
+A simple Django blog for creating and viewing posts.
 
-## Installation
-```python
-**Packages**
-django = "== 3.0"
-gunicorn = "== 19.9.0"
-whitenoise = "== 4.1.4"
+## Local Development
 
-**Python**
-python_version = "3.8"
-```
----
-## You can visit the link to directly check the Live blog Hosted on Heroku :
-https://git.heroku.com/djangoblogger00.git
----
-## Usage
-```python
-# Login information 
-Username : admin
-Password : Badcat121@
-```
----
-## ScreenShots 
+1. Clone the repo.
+2. Create virtual env: `python -m venv venv`.
+3. Activate: `source venv/bin/activate`.
+4. Install: `pip install -r requirements.txt`.
+5. Copy `.env.example` to `.env` and set values.
+6. Run migrations: `python manage.py migrate`.
+7. Create a superuser: `python manage.py createsuperuser`.
+8. Start: `python manage.py runserver`.
 
-|:camera: Screen Shots|:camera: Screen Shots|:camera: Screen Shots|
-|---|---|---|
-|<img src="https://i.postimg.cc/PPgtwbSd/1-IYj-HGCg4y.jpg" alt="1-IYj-HGCg4y"/>|<img src="https://i.postimg.cc/1n3PQv3r/firefox-4f-Xk-F28e-Uf.jpg" alt="firefox-4f-Xk-F28e-Uf"/>|<img src="https://i.postimg.cc/jCCK339s/firefox-ayyd6z-Da-SZ.jpg" alt="firefox-ayyd6z-Da-SZ"/>|
-|<img src="https://i.postimg.cc/DS17dWNL/firefox-ox-E35-CTb-XA.jpg" alt="firefox-ox-E35-CTb-XA"/>|<img src="https://i.postimg.cc/K3K2K4LK/ph2q-Yzzs-Nr.jpg" alt="ph2q-Yzzs-Nr"/>|<img src="https://i.postimg.cc/mzp427cf/ry-USH2-P0e2.jpg" alt="ry-USH2-P0e2"/><br/><br/>|
+## Deployment (Heroku or compatible)
 
-***
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-Please make sure to update tests as appropriate.
+1. Set environment variables (SECRET_KEY, DEBUG, ALLOWED_HOSTS).
+2. Ensure `runtime.txt` matches your Python version.
+3. Deploy and run migrations.
 
-## License
-[MIT]()
+## Security
 
-
-
-
-
-
-
-
-
-
-
-
+- Never commit secrets or credentials.
+- Use environment variables for all sensitive settings.
