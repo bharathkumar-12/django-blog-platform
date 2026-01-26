@@ -1,0 +1,21 @@
+{% if is_paginated %}
+<nav class="mt-8 flex items-center justify-center gap-2">
+  {% if page_obj.has_previous %}
+  <a
+    class="px-3 py-1 rounded border border-slate-200 bg-white"
+    href="?page={{ page_obj.previous_page_number }}{% if request.GET.q %}&q={{ request.GET.q }}{% endif %}{% if request.GET.tag %}&tag={{ request.GET.tag }}{% endif %}"
+    >Prev</a
+  >
+  {% endif %}
+  <span class="px-3 py-1 text-slate-600">
+    Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}
+  </span>
+  {% if page_obj.has_next %}
+  <a
+    class="px-3 py-1 rounded border border-slate-200 bg-white"
+    href="?page={{ page_obj.next_page_number }}{% if request.GET.q %}&q={{ request.GET.q }}{% endif %}{% if request.GET.tag %}&tag={{ request.GET.tag }}{% endif %}"
+    >Next</a
+  >
+  {% endif %}
+</nav>
+{% endif %}
