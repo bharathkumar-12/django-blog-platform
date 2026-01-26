@@ -40,6 +40,9 @@ Modern Django blog with clean UI, pagination, search, and tags.
 ## Screenshots
 
 Add screenshots to `docs/screenshots` and update this section.
+<img width="1337" height="705" alt="Screenshot 2026-01-26 at 11 06 19 AM" src="https://github.com/user-attachments/assets/07edbd47-49e5-457d-82e1-4d24133cc909" />
+<img width="1337" height="705" alt="Screenshot 2026-01-26 at 11 06 29 AM" src="https://github.com/user-attachments/assets/cfd59051-6e9c-47a2-bc88-255690907100" />
+<img width="343" height="608" alt="Screenshot 2026-01-26 at 11 12 57 AM" src="https://github.com/user-attachments/assets/36be2737-beee-4c34-ba85-4e83ccb26349" />
 
 ## Security
 
