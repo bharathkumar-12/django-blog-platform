@@ -47,3 +47,9 @@ Modern Django blog with clean UI, pagination, search, and tags.
 
 - Never commit secrets or credentials.
 - Use environment variables for all sensitive settings.
+
+---
+
+## Maintenance
+
+Last maintenance update: <!--LAST_UPDATED-->2026-05-19<!--/LAST_UPDATED-->
