@@ -52,4 +52,4 @@ Modern Django blog with clean UI, pagination, search, and tags.
 
 ## Maintenance
 
-Last maintenance update: <!--LAST_UPDATED-->2026-06-12<!--/LAST_UPDATED-->
+Last maintenance update: <!--LAST_UPDATED-->2026-06-16<!--/LAST_UPDATED-->
